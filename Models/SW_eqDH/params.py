@@ -1,0 +1,16 @@
+Boundary_conditions = (-6, 6, -20, 2, -5, 5)
+Volume_cell = 1.4397
+File_out = "SWeqDH_Results"
+Number_of_walkers = 100
+Number_of_points = 1500
+burn_in = 1000
+Conc_injection = [500, 500, 500, 500]
+Conc_protein_data = "Data/Protein.dat"
+Conc_ligand_data = "Data/Ligand.dat"
+DH_data = "Data/DH.dat"
+Volume_injection_data = "Data/Volume_inj.dat"
+color = ['black', 'red', 'blue', 'green', 'gold', 'pink', 'cyan', 'peru', 'limegreen']
+n_model = 4
+ePrior = True
+eP = (0.8988835016857637, 0.9155636199093159, 1.1499269245534458, 1.0389285760370357)
+deP = (0.0067897586725015335, 0.005619155810149712, 0.004799042776802542, 0.0038638395087877697)
