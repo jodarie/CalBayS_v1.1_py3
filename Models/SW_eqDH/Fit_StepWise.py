@@ -50,8 +50,8 @@ p = res[:,0]
 Kv = 10**p[1:1+params.n_model]
 Kd = np.zeros(params.n_model)
 Kd[0] = 1.0/Kv[0]
-print 'Kd1=',Kd[0]
+print('Kd1=',Kd[0])
 for i in range(1,params.n_model):
   Kd[i] = 1.0/(Kv[i]*np.prod(Kd[:i]))
-  print 'Kd'+str(i+1)+'=',Kd[i]
+  print('Kd'+str(i+1)+'=',Kd[i])
 func.Figure_fit(p,out,Pmatrix,Xmatrix,DHmatrix,Vc,vi,So,params.color,params.n_model)
