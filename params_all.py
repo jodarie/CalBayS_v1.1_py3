@@ -74,7 +74,7 @@ deP_Indp = (0.11328679607774439,0.10832811807268983,0.1320580864208163,0.1181870
 #      Stepwise parameters       #
 ##################################
 
-Stepwise = False # True --> Stepwise model is used. False --> Stepwise model is not used
+Stepwise = True # True --> Stepwise model is used. False --> Stepwise model is not used
 Boundary_conditions_sw = (-6,6,-20,2,-5,5) #(minlogK,maxlogK,minDH,maxDH,minq0,maxq0) 
 n_model_sw = 4 # Define the number of Kd in Step-Wise model
 
@@ -91,7 +91,7 @@ deP_sw = (0.0067897586725015335,0.005619155810149712,0.004799042776802542,0.0038
 # Stepwise (equal DH) parameters #
 ##################################
 
-Stepwise_eqDH = False # True --> Stepwise model with equal DH for all binding sites is used. False --> Stepwise model with equal DH for all binding sites is not used
+Stepwise_eqDH = True # True --> Stepwise model with equal DH for all binding sites is used. False --> Stepwise model with equal DH for all binding sites is not used
 Boundary_conditions_sweqDH = (-6,6,-20,2,-5,5) #(minlogK,maxlogK,minDH,maxDH,minq0,maxq0) 
 n_model_sweqDH = 4 # Define the number of Kd in Step-Wise model
 
